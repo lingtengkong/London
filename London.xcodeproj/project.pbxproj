@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4BC551254AC3B500EFD5AC /* LondonTower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B4BC550254AC3B500EFD5AC /* LondonTower.jpg */; };
+		8B4BC55D254AC51000EFD5AC /* WestminsterAbbey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B4BC55B254AC51000EFD5AC /* WestminsterAbbey.jpg */; };
+		8B4BC55E254AC51000EFD5AC /* LondonEye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B4BC55C254AC51000EFD5AC /* LondonEye.jpg */; };
+		8BD9A215254C1A79006A226E /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9A214254C1A79006A226E /* Avatar.swift */; };
+		8BD9A23C254C253C006A226E /* LondonAPP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9A23B254C253C006A226E /* LondonAPP.swift */; };
+		8BD9A260254C58E1006A226E /* DADADA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BD9A25F254C58E1006A226E /* DADADA.mp3 */; };
+		8BD9A265254C5983006A226E /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9A264254C5983006A226E /* MusicPlayer.swift */; };
+		8BD9A276254C7E1E006A226E /* PassWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9A275254C7E1E006A226E /* PassWord.swift */; };
+		8BF5309125497D4700C4F15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF5309025497D4700C4F15C /* Assets.xcassets */; };
+		8BF5309425497D4700C4F15C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF5309325497D4700C4F15C /* Preview Assets.xcassets */; };
+		8BF530D225498BDB00C4F15C /* HydePark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530C425498BD900C4F15C /* HydePark.jpg */; };
+		8BF530D325498BDB00C4F15C /* CityHall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530C525498BD900C4F15C /* CityHall.jpg */; };
+		8BF530D525498BDB00C4F15C /* TowerBridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530C725498BD900C4F15C /* TowerBridge.jpg */; };
+		8BF530D625498BDB00C4F15C /* StPaulsCathedral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530C825498BDA00C4F15C /* StPaulsCathedral.jpg */; };
+		8BF530D725498BDB00C4F15C /* BuckinghamPalace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530C925498BDA00C4F15C /* BuckinghamPalace.jpg */; };
+		8BF530D825498BDB00C4F15C /* LondonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530CA25498BDA00C4F15C /* LondonData.json */; };
+		8BF530DB25498BDB00C4F15C /* KensingtonPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530CD25498BDA00C4F15C /* KensingtonPark.jpg */; };
+		8BF530DC25498BDB00C4F15C /* ImperialCollege.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530CE25498BDA00C4F15C /* ImperialCollege.jpg */; };
+		8BF530DD25498BDB00C4F15C /* LondonBridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530CF25498BDA00C4F15C /* LondonBridge.jpg */; };
+		8BF530ED25498C7500C4F15C /* LondonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF530EC25498C7500C4F15C /* LondonRow.swift */; };
+		8BF530F225498C9300C4F15C /* LondonDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF530F125498C9300C4F15C /* LondonDetailPage.swift */; };
+		8BF530F825498CEF00C4F15C /* LondonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF530F725498CEF00C4F15C /* LondonData.swift */; };
+		8BF5310025498D0000C4F15C /* LoadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF530FF25498D0000C4F15C /* LoadData.swift */; };
+		8BF53110254996C500C4F15C /* LondonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5310F254996C500C4F15C /* LondonList.swift */; };
+		8BF531152549975700C4F15C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531142549975700C4F15C /* User.swift */; };
+		8BF5311B2549A20F00C4F15C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5311A2549A20F00C4F15C /* MapView.swift */; };
+		8BF531412549C17900C4F15C /* BigBen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF531402549C17900C4F15C /* BigBen.jpg */; };
+		8BF531A42549F03400C4F15C /* AdmiraltyArch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF531A32549F03400C4F15C /* AdmiraltyArch.jpg */; };
+		8BF531AD2549F12000C4F15C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531AC2549F12000C4F15C /* Home.swift */; };
+		8BF531B22549F14E00C4F15C /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531B12549F14E00C4F15C /* CategoryRow.swift */; };
+		8BF531B72549F20D00C4F15C /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531B62549F20D00C4F15C /* ProfileHost.swift */; };
+		8BF531BC2549F25F00C4F15C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531BB2549F25F00C4F15C /* Profile.swift */; };
+		8BF531C12549F2EE00C4F15C /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531C02549F2EE00C4F15C /* ProfileSummary.swift */; };
+		8BF531C62549F33400C4F15C /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531C52549F33400C4F15C /* ProfileEditor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BF5309B25497D4700C4F15C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF5308125497D4500C4F15C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF5308825497D4500C4F15C;
+			remoteInfo = London;
+		};
+		8BF530A625497D4700C4F15C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF5308125497D4500C4F15C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF5308825497D4500C4F15C;
+			remoteInfo = London;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B4BC550254AC3B500EFD5AC /* LondonTower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LondonTower.jpg; sourceTree = "<group>"; };
+		8B4BC55B254AC51000EFD5AC /* WestminsterAbbey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WestminsterAbbey.jpg; sourceTree = "<group>"; };
+		8B4BC55C254AC51000EFD5AC /* LondonEye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LondonEye.jpg; sourceTree = "<group>"; };
+		8BD9A214254C1A79006A226E /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		8BD9A23B254C253C006A226E /* LondonAPP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonAPP.swift; sourceTree = "<group>"; };
+		8BD9A25F254C58E1006A226E /* DADADA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DADADA.mp3; sourceTree = "<group>"; };
+		8BD9A264254C5983006A226E /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		8BD9A275254C7E1E006A226E /* PassWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWord.swift; sourceTree = "<group>"; };
+		8BF5308925497D4500C4F15C /* London.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = London.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF5309025497D4700C4F15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BF5309325497D4700C4F15C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BF5309525497D4700C4F15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF5309A25497D4700C4F15C /* LondonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF530A525497D4700C4F15C /* LondonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF530C425498BD900C4F15C /* HydePark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HydePark.jpg; sourceTree = "<group>"; };
+		8BF530C525498BD900C4F15C /* CityHall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CityHall.jpg; sourceTree = "<group>"; };
+		8BF530C725498BD900C4F15C /* TowerBridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TowerBridge.jpg; sourceTree = "<group>"; };
+		8BF530C825498BDA00C4F15C /* StPaulsCathedral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StPaulsCathedral.jpg; sourceTree = "<group>"; };
+		8BF530C925498BDA00C4F15C /* BuckinghamPalace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BuckinghamPalace.jpg; sourceTree = "<group>"; };
+		8BF530CA25498BDA00C4F15C /* LondonData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LondonData.json; sourceTree = "<group>"; };
+		8BF530CD25498BDA00C4F15C /* KensingtonPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KensingtonPark.jpg; sourceTree = "<group>"; };
+		8BF530CE25498BDA00C4F15C /* ImperialCollege.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ImperialCollege.jpg; sourceTree = "<group>"; };
+		8BF530CF25498BDA00C4F15C /* LondonBridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LondonBridge.jpg; sourceTree = "<group>"; };
+		8BF530EC25498C7500C4F15C /* LondonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonRow.swift; sourceTree = "<group>"; };
+		8BF530F125498C9300C4F15C /* LondonDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonDetailPage.swift; sourceTree = "<group>"; };
+		8BF530F725498CEF00C4F15C /* LondonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonData.swift; sourceTree = "<group>"; };
+		8BF530FF25498D0000C4F15C /* LoadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadData.swift; sourceTree = "<group>"; };
+		8BF5310F254996C500C4F15C /* LondonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonList.swift; sourceTree = "<group>"; };
+		8BF531142549975700C4F15C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8BF5311A2549A20F00C4F15C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8BF531402549C17900C4F15C /* BigBen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BigBen.jpg; path = ../../../BigBen.jpg; sourceTree = "<group>"; };
+		8BF531A32549F03400C4F15C /* AdmiraltyArch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AdmiraltyArch.jpg; sourceTree = "<group>"; };
+		8BF531AC2549F12000C4F15C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8BF531B12549F14E00C4F15C /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		8BF531B62549F20D00C4F15C /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		8BF531BB2549F25F00C4F15C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		8BF531C02549F2EE00C4F15C /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		8BF531C52549F33400C4F15C /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF5308625497D4500C4F15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF5309725497D4700C4F15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF530A225497D4700C4F15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BD9A208254B82CE006A226E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8BF531B62549F20D00C4F15C /* ProfileHost.swift */,
+				8BF531C52549F33400C4F15C /* ProfileEditor.swift */,
+				8BF531C02549F2EE00C4F15C /* ProfileSummary.swift */,
+				8BD9A214254C1A79006A226E /* Avatar.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8BD9A256254C5881006A226E /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				8BD9A25F254C58E1006A226E /* DADADA.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		8BF5308025497D4500C4F15C = {
+			isa = PBXGroup;
+			children = (
+				8BF5308B25497D4500C4F15C /* London */,
+				8BF5308A25497D4500C4F15C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF5308A25497D4500C4F15C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF5308925497D4500C4F15C /* London.app */,
+				8BF5309A25497D4700C4F15C /* LondonTests.xctest */,
+				8BF530A525497D4700C4F15C /* LondonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BF5308B25497D4500C4F15C /* London */ = {
+			isa = PBXGroup;
+			children = (
+				8BD9A23B254C253C006A226E /* LondonAPP.swift */,
+				8BD9A208254B82CE006A226E /* Profile */,
+				8BF531192549A1EB00C4F15C /* Supports */,
+				8BF530F625498CBB00C4F15C /* Models */,
+				8BF530E325498C3600C4F15C /* List */,
+				8BF530C325498BBB00C4F15C /* Resources */,
+				8BF530BF25498BA000C4F15C /* Home */,
+				8BF5309025497D4700C4F15C /* Assets.xcassets */,
+				8BF5309525497D4700C4F15C /* Info.plist */,
+				8BF5309225497D4700C4F15C /* Preview Content */,
+			);
+			path = London;
+			sourceTree = "<group>";
+		};
+		8BF5309225497D4700C4F15C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BF5309325497D4700C4F15C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BF530BF25498BA000C4F15C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8BF531AC2549F12000C4F15C /* Home.swift */,
+				8BF531B12549F14E00C4F15C /* CategoryRow.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8BF530C325498BBB00C4F15C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BD9A256254C5881006A226E /* Music */,
+				8BF531A32549F03400C4F15C /* AdmiraltyArch.jpg */,
+				8BF531402549C17900C4F15C /* BigBen.jpg */,
+				8B4BC55C254AC51000EFD5AC /* LondonEye.jpg */,
+				8B4BC55B254AC51000EFD5AC /* WestminsterAbbey.jpg */,
+				8BF530C925498BDA00C4F15C /* BuckinghamPalace.jpg */,
+				8BF530C525498BD900C4F15C /* CityHall.jpg */,
+				8B4BC550254AC3B500EFD5AC /* LondonTower.jpg */,
+				8BF530C425498BD900C4F15C /* HydePark.jpg */,
+				8BF530CE25498BDA00C4F15C /* ImperialCollege.jpg */,
+				8BF530CD25498BDA00C4F15C /* KensingtonPark.jpg */,
+				8BF530CF25498BDA00C4F15C /* LondonBridge.jpg */,
+				8BF530CA25498BDA00C4F15C /* LondonData.json */,
+				8BF530C825498BDA00C4F15C /* StPaulsCathedral.jpg */,
+				8BF530C725498BD900C4F15C /* TowerBridge.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8BF530E325498C3600C4F15C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				8BF530EC25498C7500C4F15C /* LondonRow.swift */,
+				8BF530F125498C9300C4F15C /* LondonDetailPage.swift */,
+				8BF5310F254996C500C4F15C /* LondonList.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		8BF530F625498CBB00C4F15C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BF530F725498CEF00C4F15C /* LondonData.swift */,
+				8BF530FF25498D0000C4F15C /* LoadData.swift */,
+				8BF531142549975700C4F15C /* User.swift */,
+				8BF531BB2549F25F00C4F15C /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BF531192549A1EB00C4F15C /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				8BF5311A2549A20F00C4F15C /* MapView.swift */,
+				8BD9A264254C5983006A226E /* MusicPlayer.swift */,
+				8BD9A275254C7E1E006A226E /* PassWord.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BF5308825497D4500C4F15C /* London */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF530AE25497D4700C4F15C /* Build configuration list for PBXNativeTarget "London" */;
+			buildPhases = (
+				8BF5308525497D4500C4F15C /* Sources */,
+				8BF5308625497D4500C4F15C /* Frameworks */,
+				8BF5308725497D4500C4F15C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = London;
+			productName = London;
+			productReference = 8BF5308925497D4500C4F15C /* London.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BF5309925497D4700C4F15C /* LondonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF530B125497D4700C4F15C /* Build configuration list for PBXNativeTarget "LondonTests" */;
+			buildPhases = (
+				8BF5309625497D4700C4F15C /* Sources */,
+				8BF5309725497D4700C4F15C /* Frameworks */,
+				8BF5309825497D4700C4F15C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF5309C25497D4700C4F15C /* PBXTargetDependency */,
+			);
+			name = LondonTests;
+			productName = LondonTests;
+			productReference = 8BF5309A25497D4700C4F15C /* LondonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BF530A425497D4700C4F15C /* LondonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF530B425497D4700C4F15C /* Build configuration list for PBXNativeTarget "LondonUITests" */;
+			buildPhases = (
+				8BF530A125497D4700C4F15C /* Sources */,
+				8BF530A225497D4700C4F15C /* Frameworks */,
+				8BF530A325497D4700C4F15C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF530A725497D4700C4F15C /* PBXTargetDependency */,
+			);
+			name = LondonUITests;
+			productName = LondonUITests;
+			productReference = 8BF530A525497D4700C4F15C /* LondonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BF5308125497D4500C4F15C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					8BF5308825497D4500C4F15C = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					8BF5309925497D4700C4F15C = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8BF5308825497D4500C4F15C;
+					};
+					8BF530A425497D4700C4F15C = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 8BF5308825497D4500C4F15C;
+					};
+				};
+			};
+			buildConfigurationList = 8BF5308425497D4500C4F15C /* Build configuration list for PBXProject "London" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BF5308025497D4500C4F15C;
+			productRefGroup = 8BF5308A25497D4500C4F15C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF5308825497D4500C4F15C /* London */,
+				8BF5309925497D4700C4F15C /* LondonTests */,
+				8BF530A425497D4700C4F15C /* LondonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BF5308725497D4500C4F15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF5309425497D4700C4F15C /* Preview Assets.xcassets in Resources */,
+				8BF531412549C17900C4F15C /* BigBen.jpg in Resources */,
+				8BF530D725498BDB00C4F15C /* BuckinghamPalace.jpg in Resources */,
+				8B4BC55D254AC51000EFD5AC /* WestminsterAbbey.jpg in Resources */,
+				8BF530D525498BDB00C4F15C /* TowerBridge.jpg in Resources */,
+				8BF530D625498BDB00C4F15C /* StPaulsCathedral.jpg in Resources */,
+				8BF530D325498BDB00C4F15C /* CityHall.jpg in Resources */,
+				8BF530D825498BDB00C4F15C /* LondonData.json in Resources */,
+				8BF5309125497D4700C4F15C /* Assets.xcassets in Resources */,
+				8B4BC55E254AC51000EFD5AC /* LondonEye.jpg in Resources */,
+				8BD9A260254C58E1006A226E /* DADADA.mp3 in Resources */,
+				8BF531A42549F03400C4F15C /* AdmiraltyArch.jpg in Resources */,
+				8B4BC551254AC3B500EFD5AC /* LondonTower.jpg in Resources */,
+				8BF530D225498BDB00C4F15C /* HydePark.jpg in Resources */,
+				8BF530DD25498BDB00C4F15C /* LondonBridge.jpg in Resources */,
+				8BF530DC25498BDB00C4F15C /* ImperialCollege.jpg in Resources */,
+				8BF530DB25498BDB00C4F15C /* KensingtonPark.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF5309825497D4700C4F15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF530A325497D4700C4F15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF5308525497D4500C4F15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD9A276254C7E1E006A226E /* PassWord.swift in Sources */,
+				8BF531B22549F14E00C4F15C /* CategoryRow.swift in Sources */,
+				8BF530ED25498C7500C4F15C /* LondonRow.swift in Sources */,
+				8BF531C62549F33400C4F15C /* ProfileEditor.swift in Sources */,
+				8BF531C12549F2EE00C4F15C /* ProfileSummary.swift in Sources */,
+				8BF5310025498D0000C4F15C /* LoadData.swift in Sources */,
+				8BD9A215254C1A79006A226E /* Avatar.swift in Sources */,
+				8BD9A265254C5983006A226E /* MusicPlayer.swift in Sources */,
+				8BD9A23C254C253C006A226E /* LondonAPP.swift in Sources */,
+				8BF531BC2549F25F00C4F15C /* Profile.swift in Sources */,
+				8BF531B72549F20D00C4F15C /* ProfileHost.swift in Sources */,
+				8BF531AD2549F12000C4F15C /* Home.swift in Sources */,
+				8BF530F825498CEF00C4F15C /* LondonData.swift in Sources */,
+				8BF53110254996C500C4F15C /* LondonList.swift in Sources */,
+				8BF531152549975700C4F15C /* User.swift in Sources */,
+				8BF5311B2549A20F00C4F15C /* MapView.swift in Sources */,
+				8BF530F225498C9300C4F15C /* LondonDetailPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF5309625497D4700C4F15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF530A125497D4700C4F15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BF5309C25497D4700C4F15C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF5308825497D4500C4F15C /* London */;
+			targetProxy = 8BF5309B25497D4700C4F15C /* PBXContainerItemProxy */;
+		};
+		8BF530A725497D4700C4F15C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF5308825497D4500C4F15C /* London */;
+			targetProxy = 8BF530A625497D4700C4F15C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8BF530AC25497D4700C4F15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BF530AD25497D4700C4F15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BF530AF25497D4700C4F15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"London/Preview Content\"";
+				DEVELOPMENT_TEAM = GKZM2S9RAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = London/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Handsome-Ling.London";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BF530B025497D4700C4F15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"London/Preview Content\"";
+				DEVELOPMENT_TEAM = GKZM2S9RAD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = London/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Handsome-Ling.London";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BF530B225497D4700C4F15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKZM2S9RAD;
+				INFOPLIST_FILE = LondonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Handsome-Ling.LondonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/London.app/London";
+			};
+			name = Debug;
+		};
+		8BF530B325497D4700C4F15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKZM2S9RAD;
+				INFOPLIST_FILE = LondonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Handsome-Ling.LondonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/London.app/London";
+			};
+			name = Release;
+		};
+		8BF530B525497D4700C4F15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKZM2S9RAD;
+				INFOPLIST_FILE = LondonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Handsome-Ling.LondonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = London;
+			};
+			name = Debug;
+		};
+		8BF530B625497D4700C4F15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKZM2S9RAD;
+				INFOPLIST_FILE = LondonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Handsome-Ling.LondonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = London;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF5308425497D4500C4F15C /* Build configuration list for PBXProject "London" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF530AC25497D4700C4F15C /* Debug */,
+				8BF530AD25497D4700C4F15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF530AE25497D4700C4F15C /* Build configuration list for PBXNativeTarget "London" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF530AF25497D4700C4F15C /* Debug */,
+				8BF530B025497D4700C4F15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF530B125497D4700C4F15C /* Build configuration list for PBXNativeTarget "LondonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF530B225497D4700C4F15C /* Debug */,
+				8BF530B325497D4700C4F15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF530B425497D4700C4F15C /* Build configuration list for PBXNativeTarget "LondonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF530B525497D4700C4F15C /* Debug */,
+				8BF530B625497D4700C4F15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF5308125497D4500C4F15C /* Project object */;
+}
