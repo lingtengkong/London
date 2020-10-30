@@ -15,6 +15,7 @@
 		8BD9A260254C58E1006A226E /* DADADA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BD9A25F254C58E1006A226E /* DADADA.mp3 */; };
 		8BD9A265254C5983006A226E /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9A264254C5983006A226E /* MusicPlayer.swift */; };
 		8BD9A276254C7E1E006A226E /* PassWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD9A275254C7E1E006A226E /* PassWord.swift */; };
+		8BDF442D254C993500DA90EA /* BigBen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BDF442C254C993500DA90EA /* BigBen.jpg */; };
 		8BF5309125497D4700C4F15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF5309025497D4700C4F15C /* Assets.xcassets */; };
 		8BF5309425497D4700C4F15C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF5309325497D4700C4F15C /* Preview Assets.xcassets */; };
 		8BF530D225498BDB00C4F15C /* HydePark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF530C425498BD900C4F15C /* HydePark.jpg */; };
@@ -33,7 +34,6 @@
 		8BF53110254996C500C4F15C /* LondonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5310F254996C500C4F15C /* LondonList.swift */; };
 		8BF531152549975700C4F15C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531142549975700C4F15C /* User.swift */; };
 		8BF5311B2549A20F00C4F15C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5311A2549A20F00C4F15C /* MapView.swift */; };
-		8BF531412549C17900C4F15C /* BigBen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF531402549C17900C4F15C /* BigBen.jpg */; };
 		8BF531A42549F03400C4F15C /* AdmiraltyArch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BF531A32549F03400C4F15C /* AdmiraltyArch.jpg */; };
 		8BF531AD2549F12000C4F15C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531AC2549F12000C4F15C /* Home.swift */; };
 		8BF531B22549F14E00C4F15C /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF531B12549F14E00C4F15C /* CategoryRow.swift */; };
@@ -69,6 +69,7 @@
 		8BD9A25F254C58E1006A226E /* DADADA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DADADA.mp3; sourceTree = "<group>"; };
 		8BD9A264254C5983006A226E /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		8BD9A275254C7E1E006A226E /* PassWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWord.swift; sourceTree = "<group>"; };
+		8BDF442C254C993500DA90EA /* BigBen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BigBen.jpg; sourceTree = "<group>"; };
 		8BF5308925497D4500C4F15C /* London.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = London.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF5309025497D4700C4F15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF5309325497D4700C4F15C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -91,7 +92,6 @@
 		8BF5310F254996C500C4F15C /* LondonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LondonList.swift; sourceTree = "<group>"; };
 		8BF531142549975700C4F15C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8BF5311A2549A20F00C4F15C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		8BF531402549C17900C4F15C /* BigBen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BigBen.jpg; path = ../../../BigBen.jpg; sourceTree = "<group>"; };
 		8BF531A32549F03400C4F15C /* AdmiraltyArch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AdmiraltyArch.jpg; sourceTree = "<group>"; };
 		8BF531AC2549F12000C4F15C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		8BF531B12549F14E00C4F15C /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
@@ -200,9 +200,9 @@
 		8BF530C325498BBB00C4F15C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8BDF442C254C993500DA90EA /* BigBen.jpg */,
 				8BD9A256254C5881006A226E /* Music */,
 				8BF531A32549F03400C4F15C /* AdmiraltyArch.jpg */,
-				8BF531402549C17900C4F15C /* BigBen.jpg */,
 				8B4BC55C254AC51000EFD5AC /* LondonEye.jpg */,
 				8B4BC55B254AC51000EFD5AC /* WestminsterAbbey.jpg */,
 				8BF530C925498BDA00C4F15C /* BuckinghamPalace.jpg */,
@@ -354,7 +354,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BF5309425497D4700C4F15C /* Preview Assets.xcassets in Resources */,
-				8BF531412549C17900C4F15C /* BigBen.jpg in Resources */,
 				8BF530D725498BDB00C4F15C /* BuckinghamPalace.jpg in Resources */,
 				8B4BC55D254AC51000EFD5AC /* WestminsterAbbey.jpg in Resources */,
 				8BF530D525498BDB00C4F15C /* TowerBridge.jpg in Resources */,
@@ -370,6 +369,7 @@
 				8BF530DD25498BDB00C4F15C /* LondonBridge.jpg in Resources */,
 				8BF530DC25498BDB00C4F15C /* ImperialCollege.jpg in Resources */,
 				8BF530DB25498BDB00C4F15C /* KensingtonPark.jpg in Resources */,
+				8BDF442D254C993500DA90EA /* BigBen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
